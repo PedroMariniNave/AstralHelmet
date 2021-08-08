@@ -1,0 +1,26 @@
+Helmet-Settings:
+  # Quanto de dano o jogador vai receber
+  # se estiver sem o capacete.
+  damage: 10
+  # Mundos que requerem o uso desse capacete.
+  worlds:
+    - 'Saturn1'
+    - 'Saturn2'
+  # Efeitos que o jogador vai receber ao
+  # usar esse capacete em um mundo.
+  effects:
+    - 'JUMP,2' # efeito | nível
+    - 'SPEED,1'
+  oxygen:
+    # Oxigênio máximo suportado pelo capacete.
+    max: 500
+    # Quantia de oxigênio que vai gastar
+    # a cada vez que o jogador respirar.
+    amount: 2
+
+Helmet-Item:
+  type: SKULL_ITEM
+  owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU1OTA3ZDg0ZDZhMDAyY2VkMzI5N2E0MjdkYzcyNjdhN2IzODFhMDAyMDc0YmVlMTkzM2NlMzJhYmYyYmM4NSJ9fX0=
+  name: '&aCapacete de Oxigênio &7(&f{oxygen}L&7)'
+  lore:
+    - '&7Mundo compatível: &fSaturno'

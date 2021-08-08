@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="AstralHelmet">
+    <output-path>$USER_HOME$/Desktop/Testes/plugins</output-path>
+    <root id="archive" name="AstralHelmet.jar">
+      <element id="module-output" name="AstralHelmet" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/item-nbt-api-plugin-2.8.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

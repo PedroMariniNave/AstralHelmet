@@ -1,0 +1,5 @@
+name: ${project.artifactId}
+description: ${project.description}
+version: ${project.version}
+author: zPedroo_
+main: com.zpedroo.astralhelmet.AstralHelmet

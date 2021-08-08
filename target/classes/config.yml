@@ -1,0 +1,51 @@
+Settings:
+  # Comando principal do plugin.
+  command: usar
+  # Aliases do comando
+  aliases: []
+  # Permissão para comandos de give
+  admin-permission: 'astralhelmet.admin'
+  keys:
+    oxygen: oxigenio #<cmd> <key> <jogador> <quantia>
+  # A cada quantos ticks o jogador vai respirar.
+  check-interval: 100
+
+Messages:
+  safe-world: '&cEsse mundo não precisa de capacetes!'
+  invalid-amount: '&cQuantia inválida!'
+  offline-player: '&cEsse jogador está offline!'
+  invalid-helmet: '&cVocê precisa estar usando um capacete de oxigênio!'
+
+Oxygen:
+  type: SKULL_ITEM
+  owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTJmOGJhN2U1NTZjYmJhZTk2NTg5ZWIwY2EyMGM2OWMxOWM3Y2U0Njg0NmM0NTVhMDE2ZDQ3Y2E5MmVkNWE1NSJ9fX0=
+  name: '&aTubo de Oxigênio &7(&f{amount}L&7)'
+  lore:
+    - '&7Aperte o botão direito enquanto'
+    - '&7usa um capacete para reabastecer!'
+
+Sounds:
+  breathe:
+    sound: HORSE_BREATHE
+    volume: 0.5
+    pitch: 10
+
+  equip:
+    sound: HORSE_SADDLE
+    volume: 0.5
+    pitch: 10
+
+  unequip:
+    sound: HORSE_SADDLE
+    volume: 0.5
+    pitch: 10
+
+  destroy:
+    sound: GLASS
+    volume: 2
+    pitch: 10
+
+  fuel:
+    sound: LAVA
+    volume: 0.5
+    pitch: 10
